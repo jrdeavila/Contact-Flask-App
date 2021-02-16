@@ -4,7 +4,7 @@
 # His youtube chanel: https://www.youtube.com/channel/UCMn28O1sQGochG94HdlthbA
 # 
 
-# This App will need us to save our contacts in a web environment
+# This App will help us to save our contacts in a web environment
 
 
 
