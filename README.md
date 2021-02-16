@@ -9,11 +9,11 @@
 
 
 # Requiriments
-# 1. Install mysql database
-# 2. Install python3.9.*
-# 3. Install flask and flask-mysqldb
+- Install mysql database
+- Install python3.9.*
+- Install flask and flask-mysqldb
 
-# For to download flask
+***For to download flask***
 
 pip install flask flask--mysqldb
 
