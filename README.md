@@ -1,7 +1,7 @@
 # Contact-Flask-App
 
 # With the help from Fazt Code
-# His yotubube chanel: https://www.youtube.com/channel/UCMn28O1sQGochG94HdlthbA
+# His youtube chanel: https://www.youtube.com/channel/UCMn28O1sQGochG94HdlthbA
 # 
 
 # This App will need us to save our contacts in a web environment
