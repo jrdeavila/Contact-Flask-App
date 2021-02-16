@@ -15,8 +15,7 @@
 
 # For to download flask
 
-pip install flask
-pip install flask--mysqldb
+% pip install flask flask--mysqldb
 
 
 
