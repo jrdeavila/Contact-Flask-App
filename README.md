@@ -18,7 +18,6 @@ $ pip install flask flask-mysqldb
 *In my case i have used mariadb as my database, but you can* 
 *install mysql or mariadb.*
 *The important is that you have the database created, which you can find in the folder called "database", called 'contact_app.sql'*
-*"contacts_app.sql"*
 
 *But we still not have configurated the connection between flask and*
 *database. To do this, go to folder "public/routes/mysqldb.py" and*
