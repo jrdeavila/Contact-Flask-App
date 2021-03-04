@@ -12,19 +12,21 @@ His youtube chanel: https://www.youtube.com/channel/UCMn28O1sQGochG94HdlthbA
 
 *To download flask*
 
-pip install flask flask-mysqldb
+$ pip install flask flask-mysqldb
 
-*To database on mysql. You can install mysql or mariadb*
-*In my case. I have used mariadb as my database, but you can* 
-*install mysql or mariadb*
-*the important is that you had created database which found in folder*
-*"database" called "contacts_app.sql"*
+*For to database on mysql. You can install mysql or mariadb.*
+*In my case i have used mariadb as my database, but you can* 
+*install mysql or mariadb.*
+*The important is that you had the database created, which you can find in the folder called "database" and inside the file*
+*"contacts_app.sql"*
 
 *But we still not have configurated the connection between flask and*
 *database. To do this, go to folder "public/routes/mysqldb.py" and*
 *configured parameters of the connection*
 
 *Now run "App.py"*
+
+$ python App.py
 
 # Guide
 
