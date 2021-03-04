@@ -1,0 +1,32 @@
+{% extends 'layout/layout.html' %}
+
+{% block body %}
+    <div class="row">
+            {% for contact in contacts %}
+                <div class="mb-3 col-md-4" >
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h3 class="card-title text-capitalize">
+                                {{ contact.1 }}</h3>
+                            <p class="m-2">{{ contact.2 }}</p>
+                            <p class="m-2" style="font-weight: italic;">{{ contact.3 }}</p>
+                            <p>{{ contact.4 }}</p>
+                            <a href="/edit/{{ contact.0 }}" class="btn btn-secondary mb-2">Edit Contact</a>
+                            <a href="/delete/{{ contact.0 }}" class="btn btn-danger mb-2 btn-delete">Delete Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+            {% else %}
+                <div class="col-md-4 mx-auto">
+                  <div class="card card-body text-center">
+                    <p>Not contacts saved yet</p>
+                    <a href="/add">Add One!</a>
+                  </div>
+                </div>
+            {% endfor %}
+        </div>
+
+
+
+{% endblock %}

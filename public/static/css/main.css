@@ -1,0 +1,13 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.card {
+  box-shadow: 2px 2px 10px #666;
+}
+
+.index {
+  width: 10vm;
+  height: 100vm;
+}       
